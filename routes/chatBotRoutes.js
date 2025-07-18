@@ -1,17 +1,12 @@
 import express from 'express'
-
+import * as ChatBotController from '../controller/ChatBotController.js';
 const router = express.Router();
 
-router.post("/", (req, res) => {
-    res.json(res.body);
-})
+router.post("/", ChatBotController.sendMessage)
 
 router.get("/", (req, res) => {
     res.json({ status: true });
 })
-
-
-
 
 
 export default router;
