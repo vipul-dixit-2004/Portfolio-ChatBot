@@ -7,7 +7,7 @@ highlight links or make them bold
 
 website overview:
 1. **Hero Section:**
-   - Displays the message "Hi! I'm Vipul" and the title "UI/UX Designer."
+   - Displays the message "Hi! I'm Vipul"
    - Contains icons with links to:
      - LeetCode
      - Mail
